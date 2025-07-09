@@ -1,0 +1,12 @@
+-- Create a new user named 'hr' with the specified password
+-- This user will own the HR schema and related database objects
+CREATE USER hr IDENTIFIED BY Oracle2013!;
+
+-- Grant basic privileges:
+-- CONNECT: allows the user to log in
+-- RESOURCE: allows the user to create tables, views, indexes, etc.
+GRANT CONNECT, RESOURCE TO hr;
+
+-- Set the default tablespace for the user where new objects will be stored
+-- 'users' is typically the default tablespace for non-system objects
+ALTER USER hr DEFAULT TABLESPACE users;
