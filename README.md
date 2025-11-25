@@ -1,23 +1,23 @@
-# HR Database SQL Analysis 📊
+# HR Database SQL Analysis 
 
-## 🔍 Overview
+##  Overview
 
 This project is based on the official Oracle Database 19c: SQL Workshop (1Z0-071) and has been expanded into a comprehensive, real-world HR analytics schema with **15 interrelated tables**.
 
 While the core tables originate from the Oracle SQL certification course, additional custom tables were added to reflect modern HR practices, such as `PERFORMANCE_REVIEWS`, `PAYROLL`, `TRAINING_COURSES`, `ATTENDANCE`, and `EMPLOYEE_SKILLS`. These extensions support deeper analysis, scenario based querying, and portfolio level demonstration.
 
-## 🎯 Objectives
+##  Objectives
 - Prepare for the Oracle SQL Associate Certification (1Z0-071)
 - Demonstrate practical SQL and database design skills
 - Apply analytical thinking to real-world HR data
 - Build a data analyst portfolio project using SQL
 
-## 👥 Ideal For
+##  Ideal For
 - Database Developers
 - Data Analysts
 - SQL Certification Candidates
 
-## 🧠 What You Will Learn
+##  What You Will Learn
 By working with this database, you will practice how to:
 
 - Retrieve data using `SELECT` statements
@@ -33,7 +33,7 @@ By working with this database, you will practice how to:
 
 ---
 
-## 🧱 Schema Structure
+## Schema Structure
 
 - **Employee Information**: `EMPLOYEES`, `EMPLOYEE_SKILLS`, `PERFORMANCE_REVIEWS`, `ATTENDANCE`
 - **Job & Recruitment**: `JOBS`, `RECRUITMENT`, `JOB_HISTORY`, `JOB_GRADES`
@@ -43,7 +43,7 @@ By working with this database, you will practice how to:
 
 ---
 
-## 🛠️ How to Use
+## How to Use
 
 1. Install Oracle 21c (see `Documentation/setup_guide_oracle21c.md`)
 2. Run the SQL scripts in the `/Oracle_SQL_Scripts/` directory
@@ -51,7 +51,7 @@ By working with this database, you will practice how to:
 
 ---
 
-## 💡 Sample Questions Answered
+## Sample Questions Answered
 
 - Which department has the highest average salary?
 - Who has not completed any training this year?
@@ -59,13 +59,13 @@ By working with this database, you will practice how to:
 
 ---
 
-## 📈 ER Diagram
+## ER Diagram
 
 ![ERD](./ERD/HR_ER_Diagram.png)
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - [Oracle 1Z0-071 Exam Guide](#)
 - [MySQL Version of Schema](./MySQL_Scripts/)
